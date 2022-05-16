@@ -1,0 +1,43 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner input=new Scanner(System.in);
+		System.out.println("Welcome dear customer");
+		System.out.println("What product would you like to buy?");
+		System.out.println("Press 1 for Candies");
+		System.out.println("Press 2 for Chips");
+		System.out.println("Press 3 for Gums");
+		System.out.println("Press 4 for Cookies");
+		int n=input.nextInt();
+		switch(n){
+		    case 1:
+		        System.out.println("Candies P10 each");
+		        break;
+		        case 2:
+		            System.out.println("Chips P25 each");
+		            break;
+		            case 3: 
+		                System.out.println("Gums P5 each");
+		                break;
+		                case 4:
+		                    System.out.println("Cookies for P20");
+		                    break;
+		}
+		switch(n){
+		    case 1:
+		        System.out.println("I received P10");
+		        break;
+		        case 2:
+		            System.out.println("I received P25");
+		            break;
+		            case 3:
+		                System.out.println("I received P5");
+		                break;
+		                case 4:
+		                    System.out.println("I received P20");
+		                    break;
+		}
+		System.out.println("Thank you for purchasing in our shop. Have a good day.");
+	}
+}
